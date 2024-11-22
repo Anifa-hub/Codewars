@@ -1,21 +1,21 @@
 function getDrinkByProfession(param){
-    switch(param){
-      case "Jabroni":
+    switch(param.toLowerCase){
+      case "jabroni":
         return "Patron Tequila";
         break;
-      case "School Counselor":
+      case "school counselor":
         return "Anything with Alcohol";
         break;
       case "Programmer":
-        return "Hipster Craft Beer";
+        return "hipster craft beer";
         break;
       case "Bike Gang Member":
-        return "Moonshine";
+        return "moonshine";
         break;
-      case "Politician":
+      case "politician":
         return "Your tax dollars";
         break;
-      case "Rapper":
+      case "rapper":
         return "Cristal";
         break;
       default:
