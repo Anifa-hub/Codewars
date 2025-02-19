@@ -1,0 +1,1 @@
+<h2><a href=https://www.codewars.com/kata/565f5825379664a26b00007c/train/javascript target="_blank">Surface  Area and Volume of a Box</a></h2><h3>8 kyu</h3><p>Write a function that returns the total surface area and volume of a box as an array: <code>[area, volume]</code></p>
