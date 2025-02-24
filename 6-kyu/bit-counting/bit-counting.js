@@ -5,4 +5,4 @@ var countBits = function(n) {
    
    return result;
 };
-};
+​
