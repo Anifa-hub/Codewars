@@ -1,4 +1,3 @@
- 
 function isValidWalk(walk) {
   let ns = 0, we = 0; 
     for (let dir of walk) { 
