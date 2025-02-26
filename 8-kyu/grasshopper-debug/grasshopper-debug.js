@@ -1,6 +1,6 @@
  
 function weatherInfo (temp) {
-  var c = convertToCelsius (temperature)
+  var c = convertToCelsius ()
   if (c > 0)
     return (c + " is freezing temperature")
   else
