@@ -1,6 +1,6 @@
 function XO(str) {
-    let x = (str.lowerCase().match(/x/g)||[]).length()
-    let o = (str.lowerCase().match(/o/g) || []).length()
+    let x = (str.toLowerCase().match(/x/g)||[]).length()
+    let o = (str.toLowerCase().match(/o/g) || []).length()
     
     if(x === o){
         return true
