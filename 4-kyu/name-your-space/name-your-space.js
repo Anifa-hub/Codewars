@@ -1,4 +1,3 @@
- 
 function namespace(root, path, value){
   var val       = undefined,
       rootPath  = root,
