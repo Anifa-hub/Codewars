@@ -1,4 +1,3 @@
- 
   function findDifference(a, b) {
   const reducer = (acc, num) => acc * num
   let c = a.reduce(reducer, 1);
