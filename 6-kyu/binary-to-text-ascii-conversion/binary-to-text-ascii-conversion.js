@@ -1,3 +1,4 @@
+ 
 function binaryToString(binary) {
   if (binary.length % 8 !== 0) {
     return "Binary string length is not a multiple of 8.";
@@ -6,7 +7,7 @@ function binaryToString(binary) {
   let text = "";
   for (let i = 0; i < binary.length; i += 8) {
     const chunk = binary.slice(i, i + 8);
-    const decimal = parseInt(chunk, 2);
+    const decimal = Number(chunk, 2);
 ​
     if (decimal < 0 || decimal > 127) {
       return "Invalid ASCII code found.";
