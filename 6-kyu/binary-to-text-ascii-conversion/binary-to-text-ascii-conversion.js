@@ -7,7 +7,7 @@ function binaryToString(binary) {
   let text = "";
   for (let i = 0; i < binary.length; i += 8) {
     const chunk = binary.slice(i, i + 8);
-    const decimal = Number(chunk, 2);
+    const decimal = parseInt(chunk, 2);
 ​
     if (decimal < 0 || decimal > 127) {
       return "Invalid ASCII code found.";
