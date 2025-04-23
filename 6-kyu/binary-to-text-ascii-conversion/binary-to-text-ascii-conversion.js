@@ -1,4 +1,3 @@
- 
 function binaryToString(binary) {
   if (binary.length % 8 !== 0) {
     return "Binary string length is not a multiple of 8.";
