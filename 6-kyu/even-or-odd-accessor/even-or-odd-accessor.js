@@ -1,8 +1,9 @@
  
 function evenOrOdd(n) {
- if (n.isInteger(n)) {
-    return n % 2 === 0 ? "Even" : "Odd";
+  if( array.isArray(n) === true && n[0]%2 ===0 || n % 2 === 0){
+    return "Even"
   }
-  return undefined; // Or throw an error for non-integer input
+  if(array.isArray(n) === false && n[0] % 2 !== 0 || n % 2 !== 0) {
+    return "Odd";
+  }
 }
-​
