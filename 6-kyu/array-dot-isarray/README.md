@@ -1,0 +1,1 @@
+<h2><a href=https://www.codewars.com/kata/525a4cab1650d76b8000084d/train/javascript target="_blank">Array.isArray</a></h2><h3>6 kyu</h3><p>JavaScript 1.8.5 helpfully added the Array.isArray function, which can tell you whether its argument is an Array or not. Without it, checking whether something is an Array is rather tricky. How would you do it if you had to?</p>
