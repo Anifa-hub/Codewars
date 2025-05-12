@@ -1,4 +1,3 @@
- 
 function uniqCount(xs) {
  let chArray = xs.split('');
   
