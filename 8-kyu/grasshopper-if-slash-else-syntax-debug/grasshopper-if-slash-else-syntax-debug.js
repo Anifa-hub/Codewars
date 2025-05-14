@@ -1,8 +1,9 @@
+ 
 function checkAlive (health) {
-  if ( health < 0) {
-   
-    return false
-  } else if (health>0) {
+  if (health > 0) {
+    
     return true
+  } else  {
+    return false
   }
 }
