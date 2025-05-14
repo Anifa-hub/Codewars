@@ -1,3 +1,4 @@
+ 
 function checkAlive (health) {
   if ( health < 0) {
    
