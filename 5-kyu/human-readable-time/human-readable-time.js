@@ -1,4 +1,3 @@
- 
 function humanReadable(seconds) {
   const hours = "0"+Math.floor(seconds / 3600);
      const minutes = "0"+Math.floor((seconds % 3600) / 60);
