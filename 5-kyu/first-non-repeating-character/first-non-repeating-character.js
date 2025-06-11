@@ -1,4 +1,3 @@
- 
 function firstNonRepeatingLetter(s) {
   let letters = s.toLowerCase().split('')
   let room =[]
