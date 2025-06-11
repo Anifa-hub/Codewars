@@ -1,11 +1,11 @@
- 
 function firstNonRepeatingLetter(s) {
   let letters = s.split('')
+  let room =[]
   for(let letter of letters){
     if(letters.indexOf(letter)== letters.lastIndexOf(letter)){
-      letter
+      room.push(letter)
     }
        ""
   }
-  return letter
+  return room.join('')
 }
