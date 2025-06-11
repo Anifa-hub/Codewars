@@ -1,6 +1,6 @@
  
 function firstNonRepeatingLetter(s) {
-  let letters = s.split('')
+  let letters = s.split('').toLOwerCase()
   let room =[]
   for(let letter of letters){
     if(letters.indexOf(letter)== letters.lastIndexOf(letter)){
