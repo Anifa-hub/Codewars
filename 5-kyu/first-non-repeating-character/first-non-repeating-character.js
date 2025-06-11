@@ -1,12 +1,13 @@
  
 function firstNonRepeatingLetter(s) {
-  let letters = s.split('').toLOwerCase()
+  let letters = s.toLowerCase().split('')
   let room =[]
-  for(let letter of letters){
-    if(letters.indexOf(letter)== letters.lastIndexOf(letter)){
-     return letter
+  for(let letter in letters){
+    if(letters.indexOf(letters[letter])== letters.lastIndexOf(letters[letter])){
+     return s[letter]
       
     }
   }
    return ""
 }
+console.log(firstNonRepeatingLetter("isaacI"))
