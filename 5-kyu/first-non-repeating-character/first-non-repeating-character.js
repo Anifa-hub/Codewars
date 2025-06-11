@@ -5,6 +5,6 @@ function firstNonRepeatingLetter(s) {
     if(letters.indexOf(letter)== letters.lastIndexOf(letter)){
       return letter
     }
-     ""
+     return  ""
   }
 }
