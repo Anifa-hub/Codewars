@@ -4,8 +4,7 @@ function firstNonRepeated(s) {
  for(let letter of letters){
    if(letters.indexOf(letter)===letters.lastIndexOf(letter)){
      return letter
-   }else{
-     return null
    }
  }
+  return null
 }
