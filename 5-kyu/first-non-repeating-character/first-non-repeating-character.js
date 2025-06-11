@@ -1,7 +1,12 @@
+ 
 function firstNonRepeatingLetter(s) {
   let letters = s.split('')
+  let room =[]
   for(let letter of letters){
-   return letters.indexOf(letter) === letters.lastIndexOf(letter)? letter : ""
+    if(letters.indexOf(letter)== letters.lastIndexOf(letter)){
+     return letter
+      
+    }
   }
+   return ""
 }
-console.log(firstNonRepeatingLetter("andinda"))
