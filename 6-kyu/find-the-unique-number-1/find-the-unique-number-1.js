@@ -1,4 +1,4 @@
 function findUniq(arr) {
-  return arr.filter((e)=>arr.indexOf(e)===arr.lastIndexOf(e)).toStrin()
+  return arr.filter((e)=>arr.indexOf(e)===arr.lastIndexOf(e)).toString()
 }
 ​
