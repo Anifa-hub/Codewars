@@ -12,4 +12,18 @@ function parseInt(string) {
     }
     return map[string];
     }
+   string.split(" ").map(function(number) {
+    if (multiMap[number]) {
+      result *= multiMap[number];
+      if (result >= 1000) {
+        result2 = result;
+        result = 0;
+      }
+    }
+    else if (number != "and") {
+      result += getNumber(number);
+    }
+  });
+  return result + result2;
+}
   
