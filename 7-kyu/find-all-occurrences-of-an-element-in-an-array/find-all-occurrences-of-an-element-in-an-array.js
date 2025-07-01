@@ -1,8 +1,10 @@
  
 function findAll(array, n) {
-  let room =[]
-for(let arr of array){
-  arr==n ? room.push(array.indexOf(arr)):[]
-}
-  return room
+ const indices = [];
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] === n) {
+      indices.push(i);
+    }
+  }
+  return indices;
 }
