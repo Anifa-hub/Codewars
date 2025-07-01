@@ -1,4 +1,3 @@
- 
 function findAll(array, n) {
  const indices = [];
   for (let i = 0; i < array.length; i++) {
