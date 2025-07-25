@@ -1,4 +1,4 @@
  
 function arraySum(arr) {
-  return arr.map((x)=>{Array.isArray(x)?x.reduce((a,b)=>a+b,0):x})
+  return arr.map((x)=>{Array.isArray(x) ? return x.reduce((a,b)=>a+b,0):x})
 }
