@@ -1,4 +1,3 @@
- 
 function wordToBin(str) {
   return str.split('').map(char => {
     const asciiValue = char.charCodeAt(0);
