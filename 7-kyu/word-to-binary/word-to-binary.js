@@ -1,4 +1,3 @@
- 
 ​
 function wordToBin(str){
   
