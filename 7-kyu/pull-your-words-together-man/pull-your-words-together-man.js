@@ -1,5 +1,5 @@
  
 function sentencify(words) {
-  return words.join(' ')
+  return words.join(' ')+'.'
 }
 ​
