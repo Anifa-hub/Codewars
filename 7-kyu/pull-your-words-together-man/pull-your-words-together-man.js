@@ -1,5 +1,5 @@
  
 function sentencify(words) {
-  return words.join(' ')+'.'
+  return words(0).toUpperCase()+words.join(' ')+'.'
 }
 ​
