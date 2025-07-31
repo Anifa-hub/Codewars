@@ -1,9 +1,14 @@
- 
 function evenOrOdd(n) {
-  if( Array.isArray(n) === true && [n].map((x)=>x%2 ===0) || n % 2 === 0){
-    return "Even"
+  const getStatus = (val) => {
+    if (typeof val !== 'number' || !Number.isInteger(val)) {
+      return `Invalid element: '${val}' (not an integer)`;
+    }
+    return val % 2 === 0 ? "Even" : "Odd";
+  };
+​
+  if (Array.isArray(n)) {
+    return n.map(getStatus);
   }
-  if(Array.isArray(n) === false && [n] % 2 !== 0 || n % 2 !== 0) {
-    return "Odd";
-  }
+​
+  return getStatus(n);
 }
