@@ -1,7 +1,7 @@
 let anarchy = function () {
-  const one = 'a'.length;
-  const two = 'ab'.length;
-  const three = 'abc'.length;
+   const one = +true;
+  const two = one + one;
+  const three = one + two;
   
   return `I can write numbers like, ${one}, ${two}, ${three}.`;
 };
