@@ -1,4 +1,4 @@
  
 function binToDec(bin) {
-  return parseInt(bin,10)
+  return parseInt(bin,2)
 }
