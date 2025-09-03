@@ -1,4 +1,3 @@
- 
 function array(string) {
   if (string === null || string === undefined || string.length === 0) {
     return null; 
