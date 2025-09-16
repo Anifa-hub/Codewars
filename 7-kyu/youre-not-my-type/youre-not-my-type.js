@@ -9,4 +9,9 @@ Object.defineProperty(
                 return ele instanceof type;
             });
         },
+        writable: true,
+        enumerable: false,
+        configurable: true
+    }
+);
 ​
