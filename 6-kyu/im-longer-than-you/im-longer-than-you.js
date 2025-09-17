@@ -6,6 +6,6 @@ function longer(s) {
       }
         return a.localeCompare(b)
       }
-}).join(' ')
+).join(' ')
   }
 ​
