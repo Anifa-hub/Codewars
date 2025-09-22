@@ -1,5 +1,5 @@
  
-function range(start, step, stop) {
+let range =(start, step, stop) =>{
   let [s, st, sp] = [1, 1, 1];
 ​
   // Logic to determine the parameters
