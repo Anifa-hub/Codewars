@@ -1,17 +1,20 @@
- 
 let range =(start, step, stop) =>{
-  let [s, st, sp] = [1, 1, 1];
+  let s, st, sp;
 ​
-  // Logic to determine the parameters
-  if (stop === undefined) {
-    sp = start;
-  } else if (step === undefined) {
-    [s, sp] = [start, step];
+  if (stop !== undefined) {
+    s = start;
+    st = step;
+    sp = stop;
+  } else if (step !== undefined) {
+    s = start;
+    st = 1;
+    sp = step;
   } else {
-    [s, st, sp] = [start, step, stop];
+    s = 1;
+    st = 1;
+    sp = start;
   }
 ​
-  // The generator function
   return {
     *[Symbol.iterator]() {
       for (let i = s; i <= sp; i += st) {
