@@ -1,5 +1,4 @@
- 
 function sorter(textbooks) {
-  
-  return textbooks.join(' ').toLowerCase().sort();
+//   let ans = textbooks.join(' ').toLowerCase()
+  return textbooks.join(' ').toLowerCase().split('').sort();
 }
