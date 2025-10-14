@@ -1,4 +1,4 @@
  
 function sorter(textbooks) {
-  return textbooks.join('').toLowerCase().sort();
+  return textbooks.sort();
 }
