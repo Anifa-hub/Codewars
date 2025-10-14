@@ -1,5 +1,2 @@
  
-function sorter(textbooks) {
-//   let ans = textbooks.join(' ').toLowerCase()
-  return textbooks.join(' ').toLowerCase().split(' ').sort();
-}
+const sorter = (textbooks) => textbooks.sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()));
