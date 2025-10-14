@@ -1,4 +1,3 @@
- 
 ​
 function Dog(breed) {
   this.breed = breed;
