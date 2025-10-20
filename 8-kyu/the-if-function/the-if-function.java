@@ -1,6 +1,6 @@
 public class Kata {
   public static void _if(Boolean bool, Runnable func1, Runnable func2) {
-   if (bool != null && bool.booleanValue()){
+   if (bool != null && bool==true){
      func1.run();
    }
     else{
