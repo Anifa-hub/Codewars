@@ -1,11 +1,10 @@
- 
 public class Kata {
   public static void _if(Boolean bool, Runnable func1, Runnable func2) {
    if (bool==true){
-     System.out.println(Runnable func1);
+     func1.run()
    }
     else{
-      System.out.println(func2);
+      func2.run();
     }
   }
 }
