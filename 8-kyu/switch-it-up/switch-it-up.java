@@ -1,4 +1,3 @@
- 
 public class Kata
 {
   public static String switchItUp(int number)
