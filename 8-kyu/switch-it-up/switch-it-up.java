@@ -7,6 +7,7 @@ public class Kata
     switch (number){
         case 0 :
           word = "Zero";
+        break;
         case 1:
           word = "One";
         break;
