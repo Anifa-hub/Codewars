@@ -32,7 +32,7 @@ public class Kata
           word = "Eight";
         break;
         case 9:
-          word = "nine";
+          word = "Nine";
         default:
           word = "input is invalid" ;
         break;
