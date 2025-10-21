@@ -34,6 +34,7 @@ public class Kata
         break;
         case 9:
           word = "Nine";
+        break;
         default:
           word = "input is invalid" ;
         break;
