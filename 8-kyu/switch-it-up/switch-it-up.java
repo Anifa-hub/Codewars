@@ -3,31 +3,40 @@ public class Kata
 {
   public static String switchItUp(int number)
   {
+    String word;
     switch (number){
-        case number==1:
-        return "One";
+        case 0 :
+          word = "Zero"
+        case 1:
+          word = "One";
         break;
-        case number==2:
-        return "Two";
+        case 2:
+          word = "Two";
         break;
-        case number==3:
-        return "Three";
+        case 3:
+          word = "Three";
         break;
-        case number==4:
-        return "Four";
+        case 4:
+          word = "Four";
         break;
-        case number==5:
-        return "Five";
+        case 5:
+          word = "Five";
         break;
-        case number==6:
-        return "Six";
+        case 6:
+          word = "Six";
         break;
-        case number==7:
-        return "Seven";
+        case 7:
+          word = "Seven";
         break;
+        case 8:
+          word = "Eight";
+        break;
+        case 9:
+          word = "nine";
         default:
-        return "Eight";
+          word = "input is invalid" ;
         break;
     }
+    return word;
   }
 }
