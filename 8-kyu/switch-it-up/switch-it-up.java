@@ -6,7 +6,7 @@ public class Kata
     String word;
     switch (number){
         case 0 :
-          word = "Zero"
+          word = "Zero";
         case 1:
           word = "One";
         break;
