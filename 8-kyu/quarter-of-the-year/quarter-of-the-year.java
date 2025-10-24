@@ -7,7 +7,9 @@ public class Kata {
          return 2;
        } else if ( month==7 || month==8 || month==9){
          return 3;
+       }else{
+         return 4;
        }
     }
-  return 4;
+  
 }
