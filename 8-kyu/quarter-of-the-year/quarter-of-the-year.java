@@ -1,4 +1,3 @@
- 
 public class Kata {
     public static int quarterOf(int month) {
        if(month==1 || month==2 || month==3 ){
