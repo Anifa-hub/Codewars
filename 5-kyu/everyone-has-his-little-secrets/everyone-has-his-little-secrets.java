@@ -2,7 +2,7 @@
 public class Guesser {
   
     public void guess() {
-        LittleClass.isMySecret("thatILoveUnicorns");
+     return   LittleClass.isMySecret("thatILoveUnicorns");
     }
 }
 ​
