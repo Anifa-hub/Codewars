@@ -1,12 +1,12 @@
  
 public class kata{
-public class LittleClass{
+public static class LittleClass{
   public static String isMySecret(String secret){
     return secret;
   }
 }
 ​
-public class Guesser {
+public static class Guesser {
     public void guess() {
         LittleClass.isMySecret("thatILoveUnicorns");
     }
