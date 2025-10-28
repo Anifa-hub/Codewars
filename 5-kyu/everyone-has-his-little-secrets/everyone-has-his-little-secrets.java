@@ -10,6 +10,5 @@ public class Guesser {
     public void guess() {
         TheLittleClass.isMySecret("thatILoveUnicorns"); // <--- Reference updated
     }
-​
 }
 ​
