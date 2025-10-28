@@ -1,0 +1,1 @@
+<h2><a href=https://www.codewars.com/kata/546d1328bed2e1e07a000f89/train/java target="_blank">Everyone has his little secrets</a></h2><h3>5 kyu</h3><p>Hello,</p><p>I'm a little class and I have a secret.</p><p>Will you find it ?</p>
