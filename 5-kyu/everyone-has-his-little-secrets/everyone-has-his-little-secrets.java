@@ -4,7 +4,7 @@ public class Guesser {
      System.out.println("my secret is "+ secret);
    }
     public void guess() {
-     return   LittleClass.isMySecret("thatILoveUnicorns");
+      Guesser.isMySecret("thatILoveUnicorns");
     }
 }
 ​
