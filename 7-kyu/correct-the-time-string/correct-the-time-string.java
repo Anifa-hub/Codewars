@@ -1,10 +1,11 @@
+ 
 public class Solution {
 ​
     public static String timeCorrect(String timestring) {
         if (timestring == null || timestring.isEmpty()) {
             return timestring;
         }
-       if (parts.length != 3) {
+       if (timestring.length != 3) {
             throw new IllegalArgumentException("Invalid time format. Expected HH:MM:SS.");
         }
 ​
