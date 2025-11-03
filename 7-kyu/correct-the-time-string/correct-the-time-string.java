@@ -1,12 +1,11 @@
- 
 public class Solution {
 ​
     public static String timeCorrect(String timestring) {
         if (timestring == null || timestring.isEmpty()) {
             return timestring;
         }
-        if (!timestring.matches("^\\d{2}:\\d{2}:\\d{2}$")) {
-            return null;
+       if (parts.length != 3) {
+            throw new IllegalArgumentException("Invalid time format. Expected HH:MM:SS.");
         }
 ​
         String[] parts = timestring.split(":");
