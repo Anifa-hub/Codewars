@@ -5,8 +5,8 @@ public class Solution {
         if (timestring == null || timestring.isEmpty()) {
             return timestring;
         }
-       if (timestring.length != 3) {
-            throw new IllegalArgumentException("Invalid time format. Expected HH:MM:SS.");
+        if (!timestring.matches("^\\d{2}:\\d{2}:\\d{2}$")) {
+            return null;
         }
 ​
         String[] parts = timestring.split(":");
