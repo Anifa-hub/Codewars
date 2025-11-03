@@ -1,3 +1,4 @@
+ 
 public class Solution {
 ​
     public static String timeCorrect(String timestring) {
@@ -5,7 +6,7 @@ public class Solution {
             return timestring;
         }
         if (!timestring.matches("^\\d{2}:\\d{2}:\\d{2}$")) {
-            return timestring;
+            return null;
         }
 ​
         String[] parts = timestring.split(":");
