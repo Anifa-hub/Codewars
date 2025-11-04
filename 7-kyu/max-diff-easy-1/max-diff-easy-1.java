@@ -6,7 +6,7 @@ public class Kata {
     //int [] fin = Arrays.toString(Arrays.sort(lst));
     Arrays.sort(lst);
     int min = lst[0];
-    int max = lst[list.size()-1];
+    int max = lst[lst.size()-1];
     return max-min;
   }
 }
