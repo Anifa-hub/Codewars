@@ -1,3 +1,4 @@
+ 
 import java.util.Arrays;
 public class Kata {
 ​
@@ -6,6 +7,6 @@ public class Kata {
     Arrays.sort(lst);
     int min = lst[0];
     int max = lst[list.size()-1];
-    return max.min;
+    return max-min;
   }
 }
