@@ -1,9 +1,11 @@
 public class Solution {
+   
   public static String vaporcode(String s) {
-    return s.toUpperCase().split(" ");
-  }
-  public static void main (String[]args){
-    vaporcode();
+  
+    String stringWithoutSpaces = s.replace(" ", "");
+    String uppercaseString = stringWithoutSpaces.toUpperCase();
+    String[] characters = uppercaseString.split("");
+    return String.join("  ", characters);
   }
 }
-​
+}
