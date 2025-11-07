@@ -1,3 +1,4 @@
+ 
 public class Solution {
    
   public static String vaporcode(String s) {
@@ -8,4 +9,4 @@ public class Solution {
     return String.join("  ", characters);
   }
 }
-}
+​
