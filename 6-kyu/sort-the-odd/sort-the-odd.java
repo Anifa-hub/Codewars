@@ -15,9 +15,12 @@ public class Kata {
 ​
     int oddIndex = 0;
     for (int i = 0; i < array.length; i++) {
-        array[i] = oddNumbers.get(oddIndex);
-        oddIndex++;
-      }
+​
+        if (array[i] % 2 != 0) { 
+            array[i] = oddNumbers.get(oddIndex);
+            oddIndex++;
+        }
+        
     }
     return array;
   }
