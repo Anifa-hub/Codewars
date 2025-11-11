@@ -24,3 +24,4 @@ public class Kata {
     }
     return array;
   }
+  }
