@@ -1,3 +1,4 @@
+ 
 import java.util.*;
 ​
 class Solution {
@@ -12,7 +13,6 @@ class Solution {
             if (array[i] < array[i+1]) {
                 descending = false;
             }
-            // Optional optimization
             if (!ascending && !descending) {
                 return "no";
             }
